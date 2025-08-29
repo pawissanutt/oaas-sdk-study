@@ -6,7 +6,7 @@ requires-python = ">=3.12"
 readme = "README.md"
 # authors = ["Pawissanutt <pawissanutt@gmail.com>"]
 dependencies = [
-    "oaas-sdk2-py>=0.2.3",
+    "oaas-sdk2-py>=0.3.0",
 ]
 
 [dependency-groups]

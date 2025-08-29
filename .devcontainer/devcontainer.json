@@ -23,8 +23,10 @@
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
         "charliermarsh.ruff",
-        "astral-sh.uv"
+        "astral-sh.uv",
+        "hediet.vscode-drawio"
       ]
     }
   }
