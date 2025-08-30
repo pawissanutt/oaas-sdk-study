@@ -10,7 +10,7 @@
     "UV_NO_ANALYTICS": "1"
   },
   
-  "postCreateCommand": "bash -lc 'uv venv .venv && uv sync --all-extras --dev'",
+  "postCreateCommand": "bash -lc 'uv sync --all-extras --dev'",
   "postStartCommand": "bash -lc 'uv --version && python --version'",
   "customizations": {
     "vscode": {
