@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # Base: Official Dev Containers Python image (Debian Bookworm)
-FROM mcr.microsoft.com/devcontainers/python:3.12-bookworm
+FROM mcr.microsoft.com/devcontainers/python:3.13-bookworm
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
