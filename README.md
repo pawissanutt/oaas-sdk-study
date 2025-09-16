@@ -6,7 +6,7 @@ Quick workspace for exploring serverless with FaaS vs OaaS using Python and the 
 - Tutorial: [OaaS_FaaS_tutorial.ipynb](OaaS_FaaS_tutorial.ipynb)
 - Programming task: [OaaS_FaaS_programing_task_template.ipynb](OaaS_FaaS_programing_task_template.ipynb)
 
-The tutorial uses mock_mode so you don’t need any cloud services to read or run the examples locally.
+The tutorial is designed with mocking code, so you don’t need any cloud services to run the examples locally.
 
 ## Setup
 Requirements:
