@@ -251,8 +251,8 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "oaas-sdk2-py", specifier = ">=0.3.3" },
-    { name = "oprc-py", specifier = ">=0.3.3" },
+    { name = "oaas-sdk2-py", specifier = "==0.3.5" },
+    { name = "oprc-py", specifier = "==0.3.3" },
 ]
 
 [package.metadata.requires-dev]
@@ -260,7 +260,7 @@ dev = [{ name = "ipykernel" }]
 
 [[package]]
 name = "oaas-sdk2-py"
-version = "0.3.3"
+version = "0.3.5"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "oprc-py" },
@@ -271,9 +271,9 @@ dependencies = [
     { name = "uvloop", marker = "sys_platform != 'win32'" },
     { name = "winloop", marker = "sys_platform == 'win32'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b2/e9/754286871c389b25338b0b0e752caa598f524b603ca54714143183cae862/oaas_sdk2_py-0.3.3.tar.gz", hash = "sha256:925c55543357a18b9d5913ee17a5becab405b83154f408b73a4bc1cf11328d37", size = 107511, upload-time = "2025-09-15T07:11:24.239Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/03/60/602bd0c873cbe45fef482fdf92ea8c3e635397b1465525d7fda5a7800cac/oaas_sdk2_py-0.3.5.tar.gz", hash = "sha256:78cc38dc5f9fe13506d91789f7a52aa8f52b3aea04b9ba529e7911d8bca83272", size = 109644, upload-time = "2025-09-16T21:45:24.594Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/27/63/d6de0cb52a689915e2d4b6d0f4a1d66a21c7585fb3809d889c31132dcab7/oaas_sdk2_py-0.3.3-py3-none-any.whl", hash = "sha256:a8a359bcf863c0a90b3e26979330ab95b7cbef0ad739a6eebcbb8e7fc59fd743", size = 123235, upload-time = "2025-09-15T07:11:22.973Z" },
+    { url = "https://files.pythonhosted.org/packages/dc/e3/42ab97765d21f31d1902d86466cb8ae65694faa49947ea510a35c1ccadba/oaas_sdk2_py-0.3.5-py3-none-any.whl", hash = "sha256:b6a57b6f493a79ba3c865edabf5e99c7665564e7cdc13a0f11c43067569a01fa", size = 125728, upload-time = "2025-09-16T21:45:23.591Z" },
 ]
 
 [[package]]
